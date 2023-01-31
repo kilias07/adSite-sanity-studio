@@ -15,11 +15,15 @@
     "sanity"
   ],
   "dependencies": {
+    "@sanity/scheduled-publishing": "^1.1.0",
+    "@sanity/validation": "^3.2.5",
     "@sanity/vision": "^3.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-icons": "^4.7.1",
     "react-is": "^18.2.0",
     "sanity": "^3.0.0",
+    "sanity-plugin-media": "^2.0.4",
     "styled-components": "^5.2.0"
   },
   "devDependencies": {
@@ -29,7 +33,6 @@
     "typescript": "^4.0.0"
   },
   "prettier": {
-    "semi": false,
     "printWidth": 100,
     "bracketSpacing": false,
     "singleQuote": true
