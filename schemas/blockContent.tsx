@@ -11,23 +11,24 @@ export default defineType({
       type: 'block',
 
       styles: [
-        {title: 'Normal', value: 'normal'},
-        {title: 'H1', value: 'h1'},
-        {title: 'H2', value: 'h2'},
-        {title: 'H3', value: 'h3'},
-        {title: 'H4', value: 'h4'},
-        {title: 'H5', value: 'h5'},
-        {title: 'H6', value: 'h6'},
-        {title: 'Quote', value: 'blockquote'},
+        {title: 'nagłówek trocha mnijszy drugi', value: 'h2'},
+        {title: 'jeszcze mnijszy czeci', value: 'h3'},
+        {title: 'czworty', value: 'h4'},
+        {title: 'pjonty', value: 'h5'},
+        {title: 'szósty', value: 'h6'},
+        {title: 'Kłot', value: 'blockquote'},
+        {title: 'ajnfachowy', value: 'normal'},
       ],
       lists: [
-        {title: 'Bullet', value: 'bullet'},
-        {title: 'Number', value: 'number'},
+        {title: 'Kulki', value: 'bullet'},
+        {title: 'Cyferki', value: 'number'},
       ],
       marks: {
         decorators: [
-          {title: 'Strong', value: 'strong'},
-          {title: 'Emphasis', value: 'em'},
+          {title: 'Tu mosz rubego teksta', value: 'strong'},
+          {title: 'Tu mosz kopniętego teksta', value: 'em'},
+          {title: 'A tu z kolei skrziwionego teksta', value: 'underline'},
+          {title: 'I na koniec przekreślonego teksta', value: 'strike-through'},
         ],
         annotations: [
           {
@@ -54,6 +55,7 @@ export default defineType({
       },
     }),
     defineArrayMember({
+      title: 'ôbrŏzek',
       type: 'image',
       options: {hotspot: true},
     }),
