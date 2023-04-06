@@ -8,7 +8,7 @@ export function generateCategory(category: string) {
     fields: [
       defineField({
         name: 'title',
-        title: 'Cycle',
+        title: 'Title',
         type: 'string',
       }),
       defineField({
