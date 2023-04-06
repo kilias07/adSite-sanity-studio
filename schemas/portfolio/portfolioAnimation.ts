@@ -107,7 +107,7 @@ export default defineType({
   preview: {
     prepare() {
       return {
-        title: 'Portfolio Animation',
+        title: 'Animation loaded on Portfolio page',
       };
     },
   },
