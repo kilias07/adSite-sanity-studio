@@ -18,12 +18,6 @@ export function generateCategory(category: string) {
         to: {type: 'portfolioCycle'},
       }),
       defineField({
-        name: 'description',
-        title: 'Description',
-        type: 'text',
-        rows: 5,
-      }),
-      defineField({
         name: 'gallery',
         type: 'object',
         title: 'Gallery',
