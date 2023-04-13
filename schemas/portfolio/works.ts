@@ -81,5 +81,5 @@ export function generateCategory(category: string) {
 }
 
 //Here you can add more categories into schema
-export const portfolioTypes = ['Rzezba', 'kompozycje', 'zamowienia', 'Rysunek'];
+export const portfolioTypes = ['Rzezba', 'Kompozycje', 'Zamowienia', 'Rysunek'];
 export const portfolioContent = portfolioTypes.map((el) => generateCategory(el));
