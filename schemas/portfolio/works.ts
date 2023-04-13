@@ -41,6 +41,13 @@ export function generateCategory(category: string) {
                   hotspot: true,
                   metadata: ['palette', 'lqip'],
                 },
+                fields: [
+                  {
+                    name: 'title',
+                    type: 'string',
+                    title: 'Title',
+                  },
+                ],
               },
             ],
             options: {
@@ -74,5 +81,5 @@ export function generateCategory(category: string) {
 }
 
 //Here you can add more categories into schema
-export const portfolioTypes = ['sculptures', 'drawings', 'graphics', 'orders', 'outdoor'];
+export const portfolioTypes = ['Rzezba', 'kompozycje', 'zamowienia', 'Rysunek'];
 export const portfolioContent = portfolioTypes.map((el) => generateCategory(el));
