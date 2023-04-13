@@ -10,5 +10,11 @@ export default defineType({
       title: 'Cycle',
       type: 'string',
     }),
+    defineField({
+      name: 'description',
+      title: 'Description',
+      type: 'text',
+      rows: 6,
+    }),
   ],
 });
